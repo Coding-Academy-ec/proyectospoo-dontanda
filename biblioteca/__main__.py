@@ -25,5 +25,15 @@ def main():
     for transaccion in [transaccion1, transaccion2]:
         print(transaccion)
 
+    libro_encontrado = False
+    isbn_usr = input("Escriba el ISBN del libro a buscar: ")
+    for libro in [libro1, libro2]:
+        if isbn_usr in libro.isbn:
+            libro_encontrado = True
+            print(isbn_usr, " *** El libro si exite *** " )
+    
+    if not libro_encontrado:
+       print(isbn_usr, " *** El libro NO exite *** " )
+       
 if __name__ == "__main__":
     main()
