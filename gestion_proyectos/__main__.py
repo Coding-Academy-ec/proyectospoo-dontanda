@@ -1,5 +1,5 @@
 # Autor:
-#        Diego F. Tandazo Yahguachi
+#        Diego F. Tandazo Yaguachi
 #        2024
 
 from gestion_proyectos.equipos.equipo import Equipo
